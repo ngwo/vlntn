@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T01:25:21.964Z",
+  "updated": "2026-10-02T02:04:40.040Z",
   "name": "Your Name",
   "films": [
     {
@@ -197,5 +197,66 @@
       "date": ""
     }
   ],
-  "games": []
+  "games": [
+    {
+      "title": "Persona 5",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r76.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "Skullgirls: 2nd Encore",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21fn.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "Sekiro: Shadows Die Twice",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a23.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "Sly 3: Honor Among Thieves",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1p0q.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "The Last of Us Part II",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ziw.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "Marvel Tokon: Fighting Souls",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cociit.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "Super Smash Bros. Ultimate",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2255.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "The Jackbox Party Pack 9",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53jk.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "The Jackbox Party Pack 4",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zeo.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "Geometry Wars 3: Dimensions",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2q8e.jpg",
+      "url": "https://backloggd.com/u/vlntn/"
+    },
+    {
+      "title": "Resident Evil Requiem",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobmj0.jpg",
+      "url": "https://backloggd.com/games/resident-evil-requiem/"
+    },
+    {
+      "title": "Hades II",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
+      "url": "https://backloggd.com/games/hades-ii/"
+    }
+  ]
 }
