@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T02:12:19.619Z",
+  "updated": "2026-10-02T02:16:10.085Z",
   "name": "Your Name",
   "films": [
     {
@@ -257,66 +257,6 @@
       "title": "Mina the Hollower",
       "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4g15.jpg",
       "url": "https://backloggd.com/games/mina-the-hollower/"
-    },
-    {
-      "title": "NYT Crossplay: Play and Spell",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobdmi.jpg",
-      "url": "https://backloggd.com/games/nyt-crossplay-play-and-spell/"
-    },
-    {
-      "title": "Street Fighter 6",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wxo.jpg",
-      "url": "https://backloggd.com/games/street-fighter-6/"
-    },
-    {
-      "title": "The Jackbox Party Pack 7",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zeq.jpg",
-      "url": "https://backloggd.com/games/the-jackbox-party-pack-7/"
-    },
-    {
-      "title": "Cards, the Universe and Everything",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coawj9.jpg",
-      "url": "https://backloggd.com/games/cards-the-universe-and-everything/"
-    },
-    {
-      "title": "Resident Evil 5",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtgs.jpg",
-      "url": "https://backloggd.com/games/resident-evil-5/"
-    },
-    {
-      "title": "Resident Evil 4: Separate Ways",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lar.jpg",
-      "url": "https://backloggd.com/games/resident-evil-4-separate-ways--1/"
-    },
-    {
-      "title": "Resident Evil Requiem: Leon Must Die Forever",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc19v.jpg",
-      "url": "https://backloggd.com/games/resident-evil-requiem-leon-must-die-forever/"
-    },
-    {
-      "title": "Resident Evil 4",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bo0.jpg",
-      "url": "https://backloggd.com/games/resident-evil-4--1/"
-    },
-    {
-      "title": "Lethal League Blaze",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2toi.jpg",
-      "url": "https://backloggd.com/games/lethal-league-blaze/"
-    },
-    {
-      "title": "SpeedRunners",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86z8.jpg",
-      "url": "https://backloggd.com/games/speedrunners/"
-    },
-    {
-      "title": "Ultimate Chicken Horse",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1ru.jpg",
-      "url": "https://backloggd.com/games/ultimate-chicken-horse/"
-    },
-    {
-      "title": "Call of Duty: Black Ops III",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20yw.jpg",
-      "url": "https://backloggd.com/games/call-of-duty-black-ops-iii/"
     }
   ]
 }
