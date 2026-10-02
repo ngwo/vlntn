@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watched, read, played</title>
+<style>
+  :root {
+    --bg: #e8ebf0; --ink: #1a2038; --muted: #5d6580; --card: #f6f7fa;
+    --film: #0f9b72; --book: #8a5a34; --game: #6a47c9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #12151f; --ink: #e9ecf5; --muted: #98a0b8; --card: #1b2030;
+            --film: #3ed6a4; --book: #d49a69; --game: #a58bff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.5 "Avenir Next", "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 1000px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font: 700 clamp(2.4rem, 8vw, 4.5rem)/1 "Iowan Old Style", Georgia, serif;
+       letter-spacing: -0.02em; margin: 0 0 8px; }
+  .sub { color: var(--muted); margin: 0 0 40px; }
+  section { margin-bottom: 40px; }
+  h2 { font-size: 1.1rem; margin: 0 0 12px; padding-left: 12px; border-left: 6px solid var(--c); }
+  .row { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x proximity; }
+  a.item { flex: 0 0 132px; scroll-snap-align: start; color: inherit; text-decoration: none; }
+  .cover { aspect-ratio: 2/3; background: var(--card); border-radius: 4px; overflow: hidden;
+           border-bottom: 4px solid var(--c); }
+  .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .t { font-size: .88rem; font-weight: 600; margin-top: 6px; line-height: 1.25; }
+  .m { font-size: .8rem; color: var(--muted); }
+  a.item:hover .t, a.item:focus-visible .t { text-decoration: underline; }
+  a:focus-visible { outline: 2px solid var(--c); outline-offset: 3px; }
+  .empty { color: var(--muted); }
+  footer { color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="name">Watched, read, played</h1>
+  <p class="sub">Recent films, books and games, pulled from Letterboxd, Goodreads and Backloggd.</p>
+  <section style="--c:var(--film)"><h2>Films</h2><div class="row" id="films"></div></section>
+  <section style="--c:var(--book)"><h2>Books</h2><div class="row" id="books"></div></section>
+  <section style="--c:var(--game)"><h2>Games</h2><div class="row" id="games"></div></section>
+  <footer id="updated"></footer>
+</main>
+<script>
+const esc = (s = "") => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const stars = r => r ? "★".repeat(Math.floor(r)) + (r % 1 ? "½" : "") : "";
+const meta = {
+  films: f => [f.year, stars(f.rating)].filter(Boolean).join("  "),
+  books: b => [b.author, stars(b.rating)].filter(Boolean).join("  "),
+  games: () => ""
+};
+
+fetch("data.json").then(r => r.json()).then(d => {
+  if (d.name && d.name !== "Your Name") {
+    document.getElementById("name").textContent = d.name;
+    document.title = d.name;
+  }
+  for (const key of ["films", "books", "games"]) {
+    const el = document.getElementById(key);
+    const list = d[key] || [];
+    el.innerHTML = list.length
+      ? list.map(i => `<a class="item" href="${esc(i.url)}" target="_blank" rel="noopener">
+          <div class="cover">${i.image ? `<img src="${esc(i.image)}" alt="" loading="lazy">` : ""}</div>
+          <div class="t">${esc(i.title)}</div><div class="m">${esc(meta[key](i))}</div></a>`).join("")
+      : `<p class="empty">Nothing here yet. Check the username in config.json, then run the update action.</p>`;
+  }
+  document.getElementById("updated").textContent =
+    "Updated " + new Date(d.updated).toLocaleDateString(undefined, { dateStyle: "long" });
+}).catch(() => {
+  document.getElementById("updated").textContent = "data.json not found. Run the update action first.";
+});
+</script>
+</body>
+</html>
