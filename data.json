@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T02:04:40.040Z",
+  "updated": "2026-10-02T02:09:59.642Z",
   "name": "Your Name",
   "films": [
     {
@@ -199,64 +199,124 @@
   ],
   "games": [
     {
-      "title": "Persona 5",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r76.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
-    },
-    {
-      "title": "Skullgirls: 2nd Encore",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21fn.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
-    },
-    {
-      "title": "Sekiro: Shadows Die Twice",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a23.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
-    },
-    {
-      "title": "Sly 3: Honor Among Thieves",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1p0q.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
-    },
-    {
-      "title": "The Last of Us Part II",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ziw.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
-    },
-    {
       "title": "Marvel Tokon: Fighting Souls",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cociit.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cociit.jpg",
+      "url": "https://backloggd.com/games/marvel-tokon-fighting-souls/"
     },
     {
       "title": "Super Smash Bros. Ultimate",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2255.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2255.jpg",
+      "url": "https://backloggd.com/games/super-smash-bros-ultimate/"
     },
     {
       "title": "The Jackbox Party Pack 9",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53jk.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53jk.jpg",
+      "url": "https://backloggd.com/games/the-jackbox-party-pack-9/"
     },
     {
       "title": "The Jackbox Party Pack 4",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zeo.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zeo.jpg",
+      "url": "https://backloggd.com/games/the-jackbox-party-pack-4/"
     },
     {
       "title": "Geometry Wars 3: Dimensions",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2q8e.jpg",
-      "url": "https://backloggd.com/u/vlntn/"
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2q8e.jpg",
+      "url": "https://backloggd.com/games/geometry-wars-3-dimensions/"
     },
     {
-      "title": "Resident Evil Requiem",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobmj0.jpg",
-      "url": "https://backloggd.com/games/resident-evil-requiem/"
+      "title": "Escape the Backrooms",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc4vo.jpg",
+      "url": "https://backloggd.com/games/escape-the-backrooms/"
     },
     {
-      "title": "Hades II",
-      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
-      "url": "https://backloggd.com/games/hades-ii/"
+      "title": "Guilty Gear: Strive",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lby.jpg",
+      "url": "https://backloggd.com/games/guilty-gear-strive/"
+    },
+    {
+      "title": "Call of Duty: Black Ops II",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkv.jpg",
+      "url": "https://backloggd.com/games/call-of-duty-black-ops-ii/"
+    },
+    {
+      "title": "Call of Duty: Black Ops",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkl.jpg",
+      "url": "https://backloggd.com/games/call-of-duty-black-ops/"
+    },
+    {
+      "title": "Astro Bot",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba3k.jpg",
+      "url": "https://backloggd.com/games/astro-bot/"
+    },
+    {
+      "title": "2XKO",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7pp.jpg",
+      "url": "https://backloggd.com/games/2xko/"
+    },
+    {
+      "title": "Mina the Hollower",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4g15.jpg",
+      "url": "https://backloggd.com/games/mina-the-hollower/"
+    },
+    {
+      "title": "NYT Crossplay: Play and Spell",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobdmi.jpg",
+      "url": "https://backloggd.com/games/nyt-crossplay-play-and-spell/"
+    },
+    {
+      "title": "Street Fighter 6",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wxo.jpg",
+      "url": "https://backloggd.com/games/street-fighter-6/"
+    },
+    {
+      "title": "The Jackbox Party Pack 7",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zeq.jpg",
+      "url": "https://backloggd.com/games/the-jackbox-party-pack-7/"
+    },
+    {
+      "title": "Cards, the Universe and Everything",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coawj9.jpg",
+      "url": "https://backloggd.com/games/cards-the-universe-and-everything/"
+    },
+    {
+      "title": "Resident Evil 5",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtgs.jpg",
+      "url": "https://backloggd.com/games/resident-evil-5/"
+    },
+    {
+      "title": "Resident Evil 4: Separate Ways",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lar.jpg",
+      "url": "https://backloggd.com/games/resident-evil-4-separate-ways--1/"
+    },
+    {
+      "title": "Resident Evil Requiem: Leon Must Die Forever",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc19v.jpg",
+      "url": "https://backloggd.com/games/resident-evil-requiem-leon-must-die-forever/"
+    },
+    {
+      "title": "Resident Evil 4",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bo0.jpg",
+      "url": "https://backloggd.com/games/resident-evil-4--1/"
+    },
+    {
+      "title": "Lethal League Blaze",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2toi.jpg",
+      "url": "https://backloggd.com/games/lethal-league-blaze/"
+    },
+    {
+      "title": "SpeedRunners",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86z8.jpg",
+      "url": "https://backloggd.com/games/speedrunners/"
+    },
+    {
+      "title": "Ultimate Chicken Horse",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1ru.jpg",
+      "url": "https://backloggd.com/games/ultimate-chicken-horse/"
+    },
+    {
+      "title": "Call of Duty: Black Ops III",
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20yw.jpg",
+      "url": "https://backloggd.com/games/call-of-duty-black-ops-iii/"
     }
   ]
 }
