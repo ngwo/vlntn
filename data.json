@@ -1,7 +1,15 @@
 {
-  "updated": "2026-10-03T10:42:59.194Z",
+  "updated": "2026-10-04T11:24:06.528Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "But I&#039;m a Cheerleader",
+      "year": "1999",
+      "rating": "4.0",
+      "image": "https://a.ltrbxd.com/resized/film-poster/3/8/8/0/0/38800-but-i-m-a-cheerleader-0-600-0-900-crop.jpg?v=fb07442029",
+      "url": "https://letterboxd.com/ngwo/film/but-im-a-cheerleader/",
+      "date": "2026-10-03"
+    },
     {
       "title": "Daniel and the Fiery Furnace",
       "year": "2026",
@@ -88,14 +96,6 @@
       "rating": "4.0",
       "image": "https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/4/459564-midsommar-0-600-0-900-crop.jpg?v=ed7b8ded1f",
       "url": "https://letterboxd.com/ngwo/film/midsommar/",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "Evil Dead Burn",
-      "year": "2026",
-      "rating": "4.0",
-      "image": "https://a.ltrbxd.com/resized/film-poster/1/0/9/7/0/2/2/1097022-evil-dead-burn-0-600-0-900-crop.jpg?v=398ff82d46",
-      "url": "https://letterboxd.com/ngwo/film/evil-dead-burn/2/",
       "date": "2026-09-16"
     }
   ],
