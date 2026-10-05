@@ -3,64 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nick's Logbook</title>
+<title>Watched, read, played</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#0b0c10; --panel:#161820; --text:#ebe6da; --muted:#8d8f9c; --lamp:#e6a93c; }
+  :root { --bg:#0b0c10; --panel:#161820; --text:#ebe6da; --muted:#9a9cab; --lamp:#e6a93c; }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--text);
          font:16px/1.5 "DM Sans", system-ui, sans-serif; }
-  .serif { font-family:"Fraunces", Georgia, serif; }
 
-  /* Hero: latest poster blown up behind the name, letterboxed like a widescreen frame */
-  .hero { position:relative; min-height:68vh; display:flex; align-items:flex-end;
-          padding:0 24px 56px; overflow:hidden; border-top:36px solid #000; border-bottom:36px solid #000; }
-  .hero::before { content:""; position:absolute; inset:-40px; background:var(--bg) center/cover;
-          background-image:var(--poster, none); filter:blur(28px) brightness(.45) saturate(1.2); }
-  .hero::after { content:""; position:absolute; inset:0;
-          background:linear-gradient(to top, var(--bg) 4%, transparent 70%); }
-  .hero > div { position:relative; z-index:1; max-width:1000px; width:100%; margin:0 auto; }
-  h1 { font:700 clamp(3rem,11vw,7.5rem)/.95 "Fraunces", Georgia, serif; letter-spacing:-.03em; margin:0 0 20px; }
-  .last { color:var(--text); opacity:.85; margin:0; }
+  /* Background collage: every recent cover from all three sources, tilted and dimmed */
+  #collage { position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none; }
+  #collage .tiles { position:absolute; inset:-25%; display:grid; gap:10px; opacity:.3;
+          grid-template-columns:repeat(auto-fill, minmax(120px, 1fr));
+          transform:rotate(-8deg); align-content:start; }
+  #collage img { width:100%; aspect-ratio:2/3; object-fit:cover; border-radius:3px; display:block; }
+  #collage img:nth-child(3n) { transform:translateY(24px); }
+  #collage img:nth-child(5n+2) { transform:translateY(-14px); }
+  #collage::after { content:""; position:absolute; inset:0;
+          background:linear-gradient(to bottom, rgba(11,12,16,.35), rgba(11,12,16,.8) 70%, var(--bg)); }
+
+  .hero, main, footer { position:relative; z-index:1; }
+  .hero { min-height:68vh; display:flex; align-items:flex-end; padding:0 24px 56px;
+          border-top:36px solid #000; border-bottom:36px solid #000; }
+  .hero > div { max-width:1000px; width:100%; margin:0 auto; }
+  h1 { font:700 clamp(3rem,11vw,7.5rem)/.95 "Fraunces", Georgia, serif; letter-spacing:-.03em;
+       margin:0 0 20px; text-shadow:0 2px 30px rgba(0,0,0,.6); }
+  .last { margin:0; opacity:.9; text-shadow:0 1px 12px #000; }
   .last b { color:var(--lamp); font-weight:500; }
 
   main { max-width:1000px; margin:0 auto; padding:40px 24px 64px; }
   section { margin-bottom:56px; }
   .head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:16px;
-          border-bottom:1px solid #262936; padding-bottom:10px; }
-  h2 { font:500 1.9rem/1 "Fraunces", Georgia, serif; margin:0; }
+          border-bottom:1px solid rgba(255,255,255,.18); padding-bottom:10px; }
+  h2 { font:500 1.9rem/1 "Fraunces", Georgia, serif; margin:0; text-shadow:0 1px 14px #000; }
   .src { color:var(--muted); font-size:.9rem; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(135px,1fr)); gap:20px 16px; }
   a.item { color:inherit; text-decoration:none; display:block; }
   .cover { aspect-ratio:2/3; background:var(--panel); border-radius:3px; overflow:hidden;
            display:flex; align-items:center; justify-content:center; padding:10px; text-align:center;
-           color:var(--muted); font-size:.85rem; box-shadow:0 8px 24px rgba(0,0,0,.5); }
+           color:var(--muted); font-size:.85rem; box-shadow:0 10px 28px rgba(0,0,0,.7); }
   .cover img { width:calc(100% + 20px); height:calc(100% + 20px); margin:-10px; object-fit:cover; display:block;
                transition:transform .35s ease; }
   a.item:hover .cover img, a.item:focus-visible .cover img { transform:scale(1.06); }
   a:focus-visible { outline:2px solid var(--lamp); outline-offset:3px; }
-  .t { font-size:.9rem; font-weight:500; margin-top:8px; line-height:1.25; }
-  .m { font-size:.82rem; color:var(--muted); }
+  .t { font-size:.9rem; font-weight:500; margin-top:8px; line-height:1.25; text-shadow:0 1px 10px #000; }
+  .m { font-size:.82rem; color:var(--muted); text-shadow:0 1px 8px #000; }
   .m .s { color:var(--lamp); }
   .empty { color:var(--muted); }
   footer { color:var(--muted); font-size:.85rem; text-align:center; padding-bottom:40px; }
+  footer a { color:inherit; }
   @media (prefers-reduced-motion:reduce) { .cover img { transition:none; } }
   @media (max-width:560px) { .hero { border-width:20px; min-height:56vh; } }
 </style>
 </head>
 <body>
+<div id="collage" aria-hidden="true"><div class="tiles" id="tiles"></div></div>
 <header class="hero"><div>
-  <h1 id="name">Nick's Logbook</h1>
+  <h1 id="name">Watched, read, played</h1>
   <p class="last" id="last"></p>
 </div></header>
 <main>
-  <section><div class="head"><h2>Films</h2><a class="src" id="lb">Letterboxd</a></div><div class="grid" id="films"></div></section>
+  <section><div class="head"><h2>Films</h2><span class="src">Letterboxd</span></div><div class="grid" id="films"></div></section>
   <section><div class="head"><h2>Books</h2><span class="src">Goodreads</span></div><div class="grid" id="books"></div></section>
   <section><div class="head"><h2>Games</h2><span class="src">Backloggd</span></div><div class="grid" id="games"></div></section>
 </main>
-<footer id="updated"></footer>
+<footer><span id="updated"></span> · Game art from <a href="https://rawg.io">RAWG</a></footer>
 <script>
 const esc = (s = "") => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const stars = r => r ? "★".repeat(Math.floor(r)) + (r % 1 ? "½" : "") : "";
@@ -70,17 +79,30 @@ const meta = {
   games: () => ""
 };
 
+function collage(d) {
+  // Interleave films, books and games so the mix is even, then cycle to fill the screen.
+  const pool = [];
+  for (let i = 0; i < 12; i++)
+    for (const k of ["films", "books", "games"]) {
+      const img = ((d[k] || [])[i] || {}).image;
+      if (img) pool.push(img);
+    }
+  if (!pool.length) return;
+  const n = pool.length, out = [];
+  for (let i = 0; i < 90; i++) out.push(pool[(i + Math.floor(i / n) * 3) % n]);
+  document.getElementById("tiles").innerHTML = out.map(s => `<img src="${esc(s)}" alt="">`).join("");
+}
+
 fetch("data.json").then(r => r.json()).then(d => {
   if (d.name && d.name !== "Your Name") {
     document.getElementById("name").textContent = d.name;
     document.title = d.name;
   }
+  collage(d);
   const f0 = (d.films || [])[0];
-  if (f0) {
-    if (f0.image) document.querySelector(".hero").style.setProperty("--poster", `url("${f0.image}")`);
+  if (f0)
     document.getElementById("last").innerHTML =
       `Last watched: <b>${esc(f0.title)}</b> ${esc(f0.year || "")} <span style="color:var(--lamp)">${stars(f0.rating)}</span>`;
-  }
   for (const key of ["films", "books", "games"]) {
     const list = d[key] || [];
     document.getElementById(key).innerHTML = list.length
