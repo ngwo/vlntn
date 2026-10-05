@@ -1,7 +1,23 @@
 {
-  "updated": "2026-10-04T11:24:06.528Z",
+  "updated": "2026-10-05T12:48:27.419Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "Sorry to Bother You",
+      "year": "2018",
+      "rating": "4.0",
+      "image": "https://a.ltrbxd.com/resized/sm/upload/pi/8d/sk/jg/wdiJKxlyg3bzqZgRsNcIfoaQs1O-0-600-0-900-crop.jpg?v=f85a9cc2f4",
+      "url": "https://letterboxd.com/ngwo/film/sorry-to-bother-you/",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Primetime",
+      "year": "2026",
+      "rating": "3.5",
+      "image": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988",
+      "url": "https://letterboxd.com/ngwo/film/primetime-2026/",
+      "date": "2026-10-04"
+    },
     {
       "title": "But I&#039;m a Cheerleader",
       "year": "1999",
@@ -81,22 +97,6 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/2/1234472-obsession-2025-2-0-600-0-900-crop.jpg?v=cff6fc00b6",
       "url": "https://letterboxd.com/ngwo/film/obsession-2025/2/",
       "date": "2026-09-20"
-    },
-    {
-      "title": "Resident Evil",
-      "year": "2026",
-      "rating": "4.5",
-      "image": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
-      "url": "https://letterboxd.com/ngwo/film/resident-evil-2026/",
-      "date": "2026-09-20"
-    },
-    {
-      "title": "Midsommar",
-      "year": "2019",
-      "rating": "4.0",
-      "image": "https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/4/459564-midsommar-0-600-0-900-crop.jpg?v=ed7b8ded1f",
-      "url": "https://letterboxd.com/ngwo/film/midsommar/",
-      "date": "2026-09-16"
     }
   ],
   "books": [
