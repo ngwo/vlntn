@@ -1,11 +1,27 @@
 {
-  "updated": "2026-10-06T12:17:49.303Z",
+  "updated": "2026-10-07T12:09:09.061Z",
   "name": "Your Name",
   "films": [
     {
+      "title": "Moonlight",
+      "year": "2016",
+      "rating": "4.5",
+      "image": "https://a.ltrbxd.com/resized/sm/upload/90/gn/c7/9k/qAwFbszz0kRyTuXmMeKQZCX3Q2O-0-600-0-900-crop.jpg?v=192bde15c6",
+      "url": "https://letterboxd.com/ngwo/film/moonlight-2016/",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "The Night of the Hunter",
+      "year": "1955",
+      "rating": "4.5",
+      "image": "https://a.ltrbxd.com/resized/film-poster/4/9/8/6/0/49860-the-night-of-the-hunter-0-600-0-900-crop.jpg?v=23fb657323",
+      "url": "https://letterboxd.com/ngwo/film/the-night-of-the-hunter/",
+      "date": "2026-10-06"
+    },
+    {
       "title": "Eyes Without a Face",
       "year": "1960",
-      "rating": "3.5",
+      "rating": "4.0",
       "image": "https://a.ltrbxd.com/resized/film-poster/3/1/1/9/4/31194-eyes-without-a-face-0-600-0-900-crop.jpg?v=80edfca3cc",
       "url": "https://letterboxd.com/ngwo/film/eyes-without-a-face/",
       "date": "2026-10-05"
@@ -81,25 +97,17 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/8/8/0/4/2/5/880425-the-uprising-2026-0-600-0-900-crop.jpg?v=71d42e25d2",
       "url": "https://letterboxd.com/ngwo/film/the-uprising-2026/",
       "date": "2026-09-22"
-    },
-    {
-      "title": "Shaun of the Dead",
-      "year": "2004",
-      "rating": "4.0",
-      "image": "https://a.ltrbxd.com/resized/sm/upload/36/av/yn/jg/yWEeWO7fLs45XOcb94GPiLrHBRG-0-600-0-900-crop.jpg?v=f9f1d6b3fe",
-      "url": "https://letterboxd.com/ngwo/film/shaun-of-the-dead/",
-      "date": "2026-09-22"
-    },
-    {
-      "title": "The Menu",
-      "year": "2022",
-      "rating": "3.0",
-      "image": "https://a.ltrbxd.com/resized/film-poster/5/2/1/3/2/3/521323-the-menu-0-600-0-900-crop.jpg?v=d00a0d03a8",
-      "url": "https://letterboxd.com/ngwo/film/the-menu-2022/",
-      "date": "2026-09-21"
     }
   ],
   "books": [
+    {
+      "title": "Absolute Batman, Vol. 1: The Zoo",
+      "author": "Scott Snyder",
+      "rating": "5",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1773427358l/223329645._SY475_.jpg",
+      "url": "https://www.goodreads.com/book/show/223329645",
+      "date": "Mon, 6 Jul 2026 00:00:00 +0000"
+    },
     {
       "title": "Greenlights",
       "author": "Matthew McConaughey",
@@ -186,14 +194,6 @@
       "rating": null,
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1306079371l/293101.jpg",
       "url": "https://www.goodreads.com/book/show/293101",
-      "date": ""
-    },
-    {
-      "title": "Things Fall Apart (The African Trilogy, #1)",
-      "author": "Chinua Achebe",
-      "rating": null,
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1708114013l/37781._SY475_.jpg",
-      "url": "https://www.goodreads.com/book/show/37781",
       "date": ""
     }
   ],
