@@ -1,7 +1,15 @@
 {
-  "updated": "2026-10-10T11:27:38.116Z",
+  "updated": "2026-10-11T11:41:11.351Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "Persona",
+      "year": "1966",
+      "rating": "4.5",
+      "image": "https://a.ltrbxd.com/resized/film-poster/5/1/3/5/5/51355-persona-0-600-0-900-crop.jpg?v=aca1e0fd3d",
+      "url": "https://letterboxd.com/ngwo/film/persona/",
+      "date": "2026-10-10"
+    },
     {
       "title": "Moonlight",
       "year": "2016",
@@ -88,14 +96,6 @@
       "rating": "4.5",
       "image": "https://a.ltrbxd.com/resized/film-poster/5/1/9/6/1/51961-indiana-jones-and-the-last-crusade-0-600-0-900-crop.jpg?v=a75f6c2e01",
       "url": "https://letterboxd.com/ngwo/film/indiana-jones-and-the-last-crusade/",
-      "date": "2026-09-22"
-    },
-    {
-      "title": "The Uprising",
-      "year": "2026",
-      "rating": "2.5",
-      "image": "https://a.ltrbxd.com/resized/film-poster/8/8/0/4/2/5/880425-the-uprising-2026-0-600-0-900-crop.jpg?v=71d42e25d2",
-      "url": "https://letterboxd.com/ngwo/film/the-uprising-2026/",
       "date": "2026-09-22"
     }
   ],
