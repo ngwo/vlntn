@@ -1,7 +1,23 @@
 {
-  "updated": "2026-10-13T13:01:54.794Z",
+  "updated": "2026-10-14T10:43:02.724Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "Gone with the Wind",
+      "year": "1939",
+      "rating": "4.5",
+      "image": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/2/51382-gone-with-the-wind-0-600-0-900-crop.jpg?v=26a1d7ea7e",
+      "url": "https://letterboxd.com/ngwo/film/gone-with-the-wind/",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Where Is the Friend&#039;s House?",
+      "year": "1987",
+      "rating": "4.5",
+      "image": "https://a.ltrbxd.com/resized/film-poster/1/5/6/6/9/15669-where-is-the-friend-s-house--0-600-0-900-crop.jpg?v=fa9af1e128",
+      "url": "https://letterboxd.com/ngwo/film/where-is-the-friends-house/",
+      "date": "2026-10-13"
+    },
     {
       "title": "Other Mommy",
       "year": "2026",
@@ -21,7 +37,7 @@
     {
       "title": "12 Angry Men",
       "year": "1957",
-      "rating": "4.5",
+      "rating": "5.0",
       "image": "https://a.ltrbxd.com/resized/film-poster/5/1/7/0/0/51700-12-angry-men-0-600-0-900-crop.jpg?v=b8aaf291a9",
       "url": "https://letterboxd.com/ngwo/film/12-angry-men/",
       "date": "2026-10-11"
@@ -81,22 +97,6 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/3/8/8/0/0/38800-but-i-m-a-cheerleader-0-600-0-900-crop.jpg?v=fb07442029",
       "url": "https://letterboxd.com/ngwo/film/but-im-a-cheerleader/",
       "date": "2026-10-03"
-    },
-    {
-      "title": "Daniel and the Fiery Furnace",
-      "year": "2026",
-      "rating": "0.5",
-      "image": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-and-the-fiery-furnace-0-600-0-900-crop.jpg?v=7ae1030611",
-      "url": "https://letterboxd.com/ngwo/film/daniel-and-the-fiery-furnace/",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "V/H/S",
-      "year": "2012",
-      "rating": "1.0",
-      "image": "https://a.ltrbxd.com/resized/film-poster/7/0/7/3/7/70737-v-h-s-0-600-0-900-crop.jpg?v=f7a31d727b",
-      "url": "https://letterboxd.com/ngwo/film/v-h-s/",
-      "date": "2026-09-27"
     }
   ],
   "books": [
