@@ -1,7 +1,31 @@
 {
-  "updated": "2026-10-14T10:43:02.724Z",
+  "updated": "2026-10-15T10:26:35.382Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "As Above, So Below",
+      "year": "2014",
+      "rating": "3.0",
+      "image": "https://a.ltrbxd.com/resized/film-poster/1/8/0/0/8/7/180087-as-above-so-below-0-600-0-900-crop.jpg?v=fba432615e",
+      "url": "https://letterboxd.com/ngwo/film/as-above-so-below-2014/",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Requiem for a Dream",
+      "year": "2000",
+      "rating": "4.5",
+      "image": "https://a.ltrbxd.com/resized/sm/upload/lv/4b/f2/zj/muym4jTjdLx7E6as09d1wlC3sOB-0-600-0-900-crop.jpg?v=b4d5a4aa37",
+      "url": "https://letterboxd.com/ngwo/film/requiem-for-a-dream/",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "House on Haunted Hill",
+      "year": "1959",
+      "rating": "3.5",
+      "image": "https://a.ltrbxd.com/resized/sm/upload/mz/6g/my/xd/fnlPkYlVXrWUkQsVa8Y2tkFoPQq-0-600-0-900-crop.jpg?v=d01281ab94",
+      "url": "https://letterboxd.com/ngwo/film/house-on-haunted-hill/",
+      "date": "2026-10-14"
+    },
     {
       "title": "Gone with the Wind",
       "year": "1939",
@@ -21,7 +45,7 @@
     {
       "title": "Other Mommy",
       "year": "2026",
-      "rating": "3.5",
+      "rating": "3.0",
       "image": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/4/8/0/1284480-other-mommy-0-600-0-900-crop.jpg?v=297427826f",
       "url": "https://letterboxd.com/ngwo/film/other-mommy/",
       "date": "2026-10-12"
@@ -73,30 +97,6 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/3/1/1/9/4/31194-eyes-without-a-face-0-600-0-900-crop.jpg?v=80edfca3cc",
       "url": "https://letterboxd.com/ngwo/film/eyes-without-a-face/",
       "date": "2026-10-05"
-    },
-    {
-      "title": "Sorry to Bother You",
-      "year": "2018",
-      "rating": "4.0",
-      "image": "https://a.ltrbxd.com/resized/sm/upload/pi/8d/sk/jg/wdiJKxlyg3bzqZgRsNcIfoaQs1O-0-600-0-900-crop.jpg?v=f85a9cc2f4",
-      "url": "https://letterboxd.com/ngwo/film/sorry-to-bother-you/",
-      "date": "2026-10-04"
-    },
-    {
-      "title": "Primetime",
-      "year": "2026",
-      "rating": "3.5",
-      "image": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988",
-      "url": "https://letterboxd.com/ngwo/film/primetime-2026/",
-      "date": "2026-10-04"
-    },
-    {
-      "title": "But I&#039;m a Cheerleader",
-      "year": "1999",
-      "rating": "4.0",
-      "image": "https://a.ltrbxd.com/resized/film-poster/3/8/8/0/0/38800-but-i-m-a-cheerleader-0-600-0-900-crop.jpg?v=fb07442029",
-      "url": "https://letterboxd.com/ngwo/film/but-im-a-cheerleader/",
-      "date": "2026-10-03"
     }
   ],
   "books": [
