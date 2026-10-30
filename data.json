@@ -1,7 +1,15 @@
 {
-  "updated": "2026-10-29T11:51:33.222Z",
+  "updated": "2026-10-30T11:44:52.634Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "The Devils",
+      "year": "1971",
+      "rating": null,
+      "image": "https://a.ltrbxd.com/resized/film-poster/3/0/8/9/9/30899-the-devils-0-600-0-900-crop.jpg?v=368cfcdfad",
+      "url": "https://letterboxd.com/ngwo/film/the-devils/",
+      "date": "2026-10-29"
+    },
     {
       "title": "Sense and Sensibility",
       "year": "2026",
@@ -88,14 +96,6 @@
       "rating": "3.0",
       "image": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/4/8/0/1284480-other-mommy-0-600-0-900-crop.jpg?v=297427826f",
       "url": "https://letterboxd.com/ngwo/film/other-mommy/",
-      "date": "2026-10-12"
-    },
-    {
-      "title": "Hiroshima Mon Amour",
-      "year": "1959",
-      "rating": "3.5",
-      "image": "https://a.ltrbxd.com/resized/sm/upload/d4/0z/wv/pr/xmW3o49z7iExUsren4R4QyN890H-0-600-0-900-crop.jpg?v=03127fc33b",
-      "url": "https://letterboxd.com/ngwo/film/hiroshima-mon-amour/",
       "date": "2026-10-12"
     }
   ],
