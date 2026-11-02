@@ -1,11 +1,19 @@
 {
-  "updated": "2026-11-01T12:08:36.554Z",
+  "updated": "2026-11-02T13:57:34.631Z",
   "name": "Your Name",
   "films": [
     {
+      "title": "Elevator to the Gallows",
+      "year": "1958",
+      "rating": "4.0",
+      "image": "https://a.ltrbxd.com/resized/sm/upload/j3/vo/o5/mu/gHoiRDEEOyoWhlYDAIZ0xYxlhVV-0-600-0-900-crop.jpg?v=38770c3997",
+      "url": "https://letterboxd.com/ngwo/film/elevator-to-the-gallows/",
+      "date": "2026-11-01"
+    },
+    {
       "title": "The Devils",
       "year": "1971",
-      "rating": null,
+      "rating": "4.0",
       "image": "https://a.ltrbxd.com/resized/film-poster/3/0/8/9/9/30899-the-devils-0-600-0-900-crop.jpg?v=368cfcdfad",
       "url": "https://letterboxd.com/ngwo/film/the-devils/",
       "date": "2026-10-29"
@@ -89,14 +97,6 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/1/5/6/6/9/15669-where-is-the-friend-s-house--0-600-0-900-crop.jpg?v=fa9af1e128",
       "url": "https://letterboxd.com/ngwo/film/where-is-the-friends-house/",
       "date": "2026-10-13"
-    },
-    {
-      "title": "Other Mommy",
-      "year": "2026",
-      "rating": "3.0",
-      "image": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/4/8/0/1284480-other-mommy-0-600-0-900-crop.jpg?v=297427826f",
-      "url": "https://letterboxd.com/ngwo/film/other-mommy/",
-      "date": "2026-10-12"
     }
   ],
   "books": [
