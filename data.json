@@ -1,7 +1,15 @@
 {
-  "updated": "2026-11-06T13:19:25.229Z",
+  "updated": "2026-11-07T11:58:36.147Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "Ghost in the Cell",
+      "year": "2026",
+      "rating": "4.5",
+      "image": "https://a.ltrbxd.com/resized/film-poster/1/2/7/7/6/6/3/1277663-ghost-in-the-cell-0-600-0-900-crop.jpg?v=de85a4a3ba",
+      "url": "https://letterboxd.com/ngwo/film/ghost-in-the-cell/",
+      "date": "2026-11-06"
+    },
     {
       "title": "Incoming",
       "year": "2024",
@@ -89,14 +97,6 @@
       "image": "https://a.ltrbxd.com/resized/sm/upload/mz/6g/my/xd/fnlPkYlVXrWUkQsVa8Y2tkFoPQq-0-600-0-900-crop.jpg?v=d01281ab94",
       "url": "https://letterboxd.com/ngwo/film/house-on-haunted-hill/",
       "date": "2026-10-14"
-    },
-    {
-      "title": "Gone with the Wind",
-      "year": "1939",
-      "rating": "4.5",
-      "image": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/2/51382-gone-with-the-wind-0-600-0-900-crop.jpg?v=26a1d7ea7e",
-      "url": "https://letterboxd.com/ngwo/film/gone-with-the-wind/",
-      "date": "2026-10-13"
     }
   ],
   "books": [
