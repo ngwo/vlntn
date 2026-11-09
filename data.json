@@ -1,7 +1,15 @@
 {
-  "updated": "2026-11-08T12:17:57.418Z",
+  "updated": "2026-11-09T14:29:14.668Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "Gone Girl",
+      "year": "2014",
+      "rating": "4.0",
+      "image": "https://a.ltrbxd.com/resized/film-poster/1/4/9/8/5/7/149857-gone-girl-0-600-0-900-crop.jpg?v=dfe3c8018b",
+      "url": "https://letterboxd.com/ngwo/film/gone-girl/",
+      "date": "2026-11-08"
+    },
     {
       "title": "Ghost in the Cell",
       "year": "2026",
@@ -88,14 +96,6 @@
       "rating": "4.5",
       "image": "https://a.ltrbxd.com/resized/sm/upload/lv/4b/f2/zj/muym4jTjdLx7E6as09d1wlC3sOB-0-600-0-900-crop.jpg?v=b4d5a4aa37",
       "url": "https://letterboxd.com/ngwo/film/requiem-for-a-dream/",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "House on Haunted Hill",
-      "year": "1959",
-      "rating": "3.5",
-      "image": "https://a.ltrbxd.com/resized/sm/upload/mz/6g/my/xd/fnlPkYlVXrWUkQsVa8Y2tkFoPQq-0-600-0-900-crop.jpg?v=d01281ab94",
-      "url": "https://letterboxd.com/ngwo/film/house-on-haunted-hill/",
       "date": "2026-10-14"
     }
   ],
