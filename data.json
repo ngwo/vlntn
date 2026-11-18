@@ -1,7 +1,15 @@
 {
-  "updated": "2026-11-17T14:59:15.009Z",
+  "updated": "2026-11-18T14:40:04.485Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "Wildwood",
+      "year": "2026",
+      "rating": "4.0",
+      "image": "https://a.ltrbxd.com/resized/film-poster/7/0/9/4/6/0/709460-wildwood-2026-0-600-0-900-crop.jpg?v=e0b4be5769",
+      "url": "https://letterboxd.com/ngwo/film/wildwood-2026/",
+      "date": "2026-11-17"
+    },
     {
       "title": "The Grand Budapest Hotel",
       "year": "2014",
@@ -89,14 +97,6 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
       "url": "https://letterboxd.com/ngwo/film/project-hail-mary/1/",
       "date": "2026-10-20"
-    },
-    {
-      "title": "Oldboy",
-      "year": "2003",
-      "rating": "4.0",
-      "image": "https://a.ltrbxd.com/resized/film-poster/5/1/4/5/4/51454-oldboy-0-600-0-900-crop.jpg?v=294dbcadef",
-      "url": "https://letterboxd.com/ngwo/film/oldboy/",
-      "date": "2026-10-17"
     }
   ],
   "books": [
