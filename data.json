@@ -1,7 +1,15 @@
 {
-  "updated": "2026-11-21T13:46:52.225Z",
+  "updated": "2026-11-22T13:40:27.666Z",
   "name": "Your Name",
   "films": [
+    {
+      "title": "Always Lalisa",
+      "year": "2026",
+      "rating": "5.0",
+      "image": "https://a.ltrbxd.com/resized/film-poster/1/3/6/6/8/0/5/1366805-always-lalisa-0-600-0-900-crop.jpg?v=eedae4dd5d",
+      "url": "https://letterboxd.com/ngwo/film/always-lalisa/",
+      "date": "2026-11-21"
+    },
     {
       "title": "Wildwood",
       "year": "2026",
@@ -89,14 +97,6 @@
       "image": "https://a.ltrbxd.com/resized/film-poster/1/6/2/9/4/4/3/1629443-you-can-see-everything-0-600-0-900-crop.jpg?v=84f6724d74",
       "url": "https://letterboxd.com/ngwo/film/you-can-see-everything/",
       "date": "2026-10-25"
-    },
-    {
-      "title": "Project Hail Mary",
-      "year": "2026",
-      "rating": "4.5",
-      "image": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
-      "url": "https://letterboxd.com/ngwo/film/project-hail-mary/1/",
-      "date": "2026-10-20"
     }
   ],
   "books": [
